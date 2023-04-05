@@ -1,0 +1,71 @@
+.main-container {
+  margin: 0 auto;
+  border: 1px solid black;
+  max-width: 1200px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* flex-basis: 33.33%;
+  height: 300px; */
+  background: #fff;
+  width: 250px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+}
+.player-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  background-size: cover;
+}
+.player-info {
+  height: 80px;
+  background-color: rgb(191, 201, 198);
+}
+.title {
+  color: rgb(48, 46, 46);
+}
+
+.skill {
+  color: rgb(122, 227, 122);
+}
+
+.player-value {
+  color: rgb(222, 84, 16);
+}
+.match {
+  color: rgb(36, 202, 180);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.input-box {
+  width: 35%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.input-box:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.heading {
+  text-align: center;
+}
